@@ -1,0 +1,80 @@
+/* Blog Post Container */
+.blog-post {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #F9F9F9;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.7;
+}
+
+/* Headings */
+.blog-post h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.blog-post h3 {
+  font-size: 1.4rem;
+  color: #34495e;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+/* Paragraphs */
+.blog-post p {
+  margin-bottom: 16px;
+}
+
+/* Lists */
+.blog-post ul {
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+.blog-post ul li::before {
+  content: "•";
+  color: #3498db;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.blog-post ol {
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+.blog-post a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.blog-post a:hover {
+  text-decoration: underline;
+}
+
+/* Tags and date */
+.blog-post strong {
+  color: #2d3436;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .blog-post {
+    padding: 20px;
+  }
+
+  .blog-post h2 {
+    font-size: 1.6rem;
+  }
+
+  .blog-post h3 {
+    font-size: 1.2rem;
+  }
+}
